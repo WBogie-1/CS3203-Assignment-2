@@ -1,0 +1,50 @@
+<html>
+
+<head>
+  <title>User Info</title>
+  <style type="text/css">
+  </style>
+    <link rel="stylesheet" href="public\stylesheets\style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+</head>
+
+<body>
+    
+    <button id="Load" class="btn btn-success">Load</button>
+    <br />
+    <br />
+    <form id="form1" method="POST">
+        <table style="margin-left:auto; margin-right:auto;">
+            <tr>
+                <td><label>Tweet Text</label></td>
+                <td><input class="form-control" type="text" name="username" id="text" required></td>
+            </tr>
+            <tr>
+                <td><label>UserID</label></td>
+                <td><input class="form-control" type="number" name="fullname" id="userid" required></td>
+            </tr>
+        </table>
+        <br />
+        <button type="Submit" id="add" class="btn btn-success">Submit</button>
+    </form>
+    <br />
+    <table id='myTable' style="margin-left:auto; margin-right:auto;">
+        <thead>
+            <tr>
+                <th>CreatedTime</th>
+                <th>Tweet_ID</th>
+                <th>User_ID</th>
+                <th>User_name</th>
+                <th>Screen_name</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</body>
+
+</html>
