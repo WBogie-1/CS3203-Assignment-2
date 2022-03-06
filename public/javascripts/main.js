@@ -1,3 +1,7 @@
+function test_print(){
+	console.log("test code")
+}
+
 $(document).ready(function () {
     
     //when a user click the "submit" button
